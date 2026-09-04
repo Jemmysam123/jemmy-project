@@ -1,0 +1,6 @@
+{
+  "name": "Patsoi CD Block Office Staff Attendance",
+  "description": "GPS geofence-verified staff attendance and registration portal for Patsoi Community Development Block Office.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

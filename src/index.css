@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.bg-grid-dots {
+  background-image: radial-gradient(circle at 50% 50%, #334155 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Custom leaflet map adjustments for dark immersive theme */
+.leaflet-container {
+  font-family: inherit;
+  background-color: #020617 !important;
+}
+
+/* Optional inverted / dark tile effect for map */
+.leaflet-tile-pane {
+  filter: brightness(0.85) invert(1) contrast(1.1) hue-rotate(200deg) saturate(0.65);
+}
+
+.custom-office-marker,
+.custom-staff-marker {
+  z-index: 1000 !important;
+}
+
